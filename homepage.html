@@ -1,0 +1,317 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>     
+    <meta charset="UTF-8">     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Hot Pepper Perfumes</title>     
+    <link href="/src/static/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="icon" href="/src/img/hotpepper.png" sizes="312x512">     
+</head> 
+<body>      
+    <!--nav bar begings-->  
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(237, 150, 0);">
+        <div class="container">
+          <!-- Brand/logo -->
+          <a class="navbar-brand" href="#">
+            <img src="/src/img/hotpepper.png" alt="Hot Pepper logo" style="height: 60px;">
+          </a>
+          
+          <!-- Mobile toggle button -->
+          <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation"
+            style="border-color: #fff;"
+          >
+            <span class="navbar-toggler-icon" style="background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e');"></span>
+          </button>
+          
+          <!-- Navigation links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" aria-current="page" style="color: #fff; font-weight: 700; margin: 0 10px; text-decoration: underline;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/aboutpage.html" style="color: #fff; font-weight: 500; margin: 0 10px; text-transform: capitalize;">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/perfume.html" style="color: #fff; font-weight: 500; margin: 0 10px; text-transform: capitalize;">Perfume</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a 
+                  class="nav-link dropdown-toggle" 
+                  href="#" 
+                  id="categoriesDropdown" 
+                  role="button"
+                  data-bs-toggle="dropdown" 
+                  aria-expanded="false"
+                  style="color: #fff; font-weight: 500; margin: 0 10px; text-transform: capitalize;"
+                >
+                  Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="categoriesDropdown" style="background-color: rgb(237, 150, 0); border: none; border-radius: 0;">
+                  <li><a class="dropdown-item" href="/menperfumes.html" style="color: #fff;">Men's Perfume</a></li>
+                  <li><a class="dropdown-item" href="/womenperfumes.html" style="color: #fff;">Women's Perfume</a></li>
+                  <li><a class="dropdown-item" href="/Extra.html" style="color: #fff;">Extras</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Search form -->
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search perfumes..." aria-label="Search" style="border-radius: 4px; border: none;">
+              <button class="btn" type="submit" style="background-color: transparent; border: 1px solid #fff; color: #fff; border-radius: 4px;">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+    <!--navigation bar ends-->       
+    
+    <!--Header hero page-->     
+    <div class="container-fluid" style="padding-top: 10px;">         
+        <div class="row justify-content-start align-items-center g-4" style="background-color: rgb(237, 150, 0);">             
+            <!--Designer quote and call to action-->             
+            <div class="col-12 col-lg-6 ps-lg-5 ps-3 py-4 text-center text-lg-start">                 
+                <h1 class="mb-5" style="font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; font-size: calc(1.5rem + 2vw); color: white;">                     
+                    <span style="font-size: calc(2.5rem + 4vw); font-family: cursive ; color: white;">T</span>he parfumerie<br>                     
+                    that spice Reality<br>                     
+                    of Everyday life.<br>                 
+                </h1>                 
+                <a name="" id="" class="btn btn-dark rounded-sm" href="#" role="button">
+                    Discover <span style="color:rgb(217, 158, 48)">Now</span>
+                </a>              
+            </div>             
+            
+            <!--Hero image-->             
+            <div class="col-12 col-lg-6 position-relative text-center" style="min-height: 350px;">                 
+                <img src="/src/img/ChatGPT_Image_May_1__2025__04_03_34_PM-removebg-preview.png" 
+                     alt="Fragrance Bottle" 
+                     style="max-height: 500px; width: auto; max-width: 100%; padding-left: 0; position: relative; z-index: 1;">                 
+                
+            </div>         
+        </div>              
+    </div>          
+    <!--End of Header-->   
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-12">
+                <h1 style="color: rgb(237, 150, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-top: 2rem; text-align: center;">Featured products</h1>
+                
+                <hr style="width: 80%; max-width: 300px; height: 2px; margin: 1.5rem auto; background-color: rgb(237, 150, 0);">
+                
+                <!-- Products Navigation -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler mx-auto mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#featuredProductsNav" aria-controls="featuredProductsNav" aria-expanded="false" aria-label="Toggle navigation" style="border-color: rgb(237, 150, 0);">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse justify-content-center" id="featuredProductsNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link active product-nav-link" href="#" data-category="women" style="font-weight: 500; color: rgb(237, 150, 0);">Women</a></li>
+                                <li class="nav-item"><a class="nav-link product-nav-link" href="#" data-category="men" style="font-weight: 500; color: #333;">Men</a></li>
+                                <li class="nav-item"><a class="nav-link product-nav-link" href="#" data-category="gifts" style="font-weight: 500; color: #333;">Extras</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            
+                <!-- Product display area that will be updated dynamically -->
+                <div id="product-content" class="product-container">
+                    <div class="row" id="women-products">
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/WhatsApp_Image_2025-05-01_at_12.26.31_eb889691-removebg-preview.png" class="card-img-top" alt="channel" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Channel</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦95,000</a>
+                                    <p class="card-text">flowers</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/jadore-removebg-preview.png" class="card-img-top" alt="Jadore Perfume" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">J'adore</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦125,000</a>
+                                    <p class="card-text">Stench of a god, pride of a lion.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/WhatsApp_Image_20-removebg-preview.png" class="card-img-top" alt="Elegance Perfume" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Yara</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦25,000</a>
+                                    <p class="card-text">Subtle notes of jasmine with a hint of vanilla.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row d-none" id="men-products">
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/boss-removebg-preview.png" class="card-img-top" alt="Gentleman Perfume" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">BOSS HUGO</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦55,000</a>
+                                    <p class="card-text">Bold and sophisticated fragrance for men.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/bvlgari-removebg-preview.png" class="card-img-top" alt="Royal Perfume" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bvlgari</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦170,000</a>
+                                    <p class="card-text">Woodsy notes with a touch of spice.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/creed_vikins-removebg-preview.png" class="card-img-top" alt="Noir Perfume" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Creed Vikings</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦450,000</a>
+                                    <p class="card-text">Mysterious and captivating scent.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row d-none" id="gifts-products">
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/sadaat-removebg-preview.png" class="sadaat" alt="sadaat" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">sadaat</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦4,500</a>
+                                    <p class="card-text">Complete set with perfume, lotion and shower gel.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/lamsa-removebg-preview.png" class="card-img-top" alt="lamsa" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">lamsa</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦4,500</a>
+                                    <p class="card-text">Travel-sized perfumes perfect for on-the-go.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mb-4">
+                            <div class="card">
+                                <img src="/src/img/daliya-removebg-preview.png" class="card-img-top" alt="daliya" style="background-color:rgba(237, 150, 0, 0.212); padding: 15px; height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h5 class="card-title">daliya</h5>
+                                    <a class="price-link text-decoration-none" href="https://wa.me/message/RS4EXD747H5EO1" style="color:rgb(237, 150, 0);">₦4,500</a>
+                                    <p class="card-text">Limited edition seasonal collection.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    
+             
+    <!--footer-->
+    <footer class="text-white pt-5 pb-4" style="margin-top: 50px; background-color:rgb(237, 150, 0) ">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4" style="color:white;">
+                        Hot Pepper Perfumes
+                    </h6>
+                    <p>
+                        Experience luxury fragrances that spice up the reality of everyday life. Premium quality perfumes for every occasion.
+                    </p>
+                </div>
+                
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4" style="color:white;">
+                        Products
+                    </h6>
+                    <p><a href="#" class="text-reset text-decoration-none">Women's Perfumes</a></p>
+                    <p><a href="#" class="text-reset text-decoration-none">Men's Perfumes</a></p>
+                    <p><a href="#" class="text-reset text-decoration-none">Unisex Fragrances</a></p>
+                    <p> <a href="#" class="text-reset text-decoration-none">Gift Sets</a></p>
+                </div>
+                
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4" style="color:white;">
+                        Useful links
+                    </h6>
+                    <p><a href="#" class="text-reset text-decoration-none">About Us</a></p>
+                    <p><a href="#" class="text-reset text-decoration-none">Contact</a></p>
+                    <p><a href="#" class="text-reset text-decoration-none">FAQ</a></p>
+                    <p><a href="#" class="text-reset text-decoration-none">Support</a></p>
+                </div>
+                
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4" style="color: white;">
+                        Contact
+                    </h6>
+                    <p><i class="fas fa-home me-2"></i> Abuja, Nigeria</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@hotpepperperfumes.com</p>
+                    <p><i class="fas fa-phone me-2"></i> + 234 800 123 4567</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-4" style="background-color:rgb(237, 150, 0);">
+            © 2025 Copyright: Hot Pepper Perfumes
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all navigation links
+            const navLinks = document.querySelectorAll('.product-nav-link');
+            
+            // Add click event listener to each navigation link
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Remove active class and orange color from all links
+                    navLinks.forEach(l => {
+                        l.classList.remove('active');
+                        l.style.color = '#333';
+                    });
+                    
+                    // Add active class to clicked link and change color
+                    this.classList.add('active');
+                    this.style.color = 'rgb(237, 150, 0)';
+                    
+                    // Get the category from data attribute
+                    const category = this.getAttribute('data-category');
+                    
+                    // Hide all product sections
+                    document.querySelectorAll('#product-content .row').forEach(row => {
+                        row.classList.add('d-none');
+                    });
+                    
+                    // Show the selected category
+                    document.getElementById(category + '-products').classList.remove('d-none');
+                });
+            });
+        });
+    </script>
+</body> 
+</html>
